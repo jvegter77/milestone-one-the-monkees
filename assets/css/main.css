@@ -2,80 +2,67 @@ body {
     margin: 0;
 }
 
-.navigation img {
-    width: 50%;
-}
-
-.navigation ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: flex-start;
-}
-
-.navigtaion li {
-    flex: 1;
-    padding: 10px 10px;
-    
-}
-
-.navigation a {
-    text-decoration: none;
-    font-family: 'Gloria Hallelujah', cursive;
-    font-size: 20px;
-    padding: 10px 10px;
-}
-
-.headerimage img {
-    width: 100%;
-}
-
-#discography-home {
-    text-align: center;
-}
-
-#tourdates-home {
-    text-align: center;
-}
-
-#about-us-home {
-    text-align: center;
-}
-
-#contact-home {
-    text-align: center;
-}
-
-.disc-section-home{
+.navlist {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #fafafa;
-    justify-content: space-around;
+    list-style: none;
+    padding: 20px 20px;
+    margin: 0;
+    justify-content: center;
+    background-color: #4169E1;
 }
 
-/*General Styling*/
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Gloria Hallelujah', cursive;
+.navlist a {
+    text-decoration: none;
+    padding: 20px 20px;
+    font-family: 'Carter One', cursive;
     font-size: 25px;
+    color: #FF6347;
+}
+
+.navlist a:hover {
+    background-color: #87CEFA;
+}
+
+.navlist a:active {
+    background-color: #87CEFA;
+}
+
+.logo {
     text-align: center;
-    margin: 0;
-    background-color: #FFE4C4;
+}
+
+.logo img {
+    width: 70%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Candal', sans-serif;
+    font-size: 30px;
+    background-color: #4169E1;
+    color: #FF6347;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
 }
 
 p {
-   font-family: 'Open Sans Condensed', sans-serif;
-   font-size: 20px;
-   padding: 10px 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
 }
 
-/*Use of Google Fonts
+#homesection1 img {
+    width: 100%;
+}
 
-for navigation and header
-font-family: 'Gloria Hallelujah', cursive; 
-For paragraphs and other text
-font-family: 'Open Sans Condensed', sans-serif;
+#newshome {
+    width: 80%;
+    margin: auto;
+}
 
-*/
-
+#footerinfo {
+    background-color: #4169E1;
+}
