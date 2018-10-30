@@ -114,6 +114,10 @@ p {
     cursor: pointer;
 }
 
+#aboutsection1 img{
+    width: 100%;
+}
+
 #footerinfo {
     background-color: #4169E1;
 }
