@@ -122,6 +122,10 @@ p {
     width: 100%;
 }
 
+#tourdatessection2 {
+    padding: 20px 30px;
+}
+
 #footerinfo {
     background-color: #4169E1;
 }
