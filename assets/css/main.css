@@ -26,19 +26,19 @@ body {
 }
 
 #discography-home {
-    background-color: #FFE4C4;
+    text-align: center;
 }
 
 #tourdates-home {
-    background-color: #FFE4C4;
+    text-align: center;
 }
 
 #about-us-home {
-    background-color: #FFE4C4;
+    text-align: center;
 }
 
 #contact-home {
-    background-color: #FFE4C4;
+    text-align: center;
 }
 
 .disc-section-home{
@@ -56,6 +56,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 25px;
     text-align: center;
     margin: 0;
+    background-color: #FFE4C4;
+}
+
+p {
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 20px;
+   padding: 10px 50px;
 }
 
 /*Use of Google Fonts
