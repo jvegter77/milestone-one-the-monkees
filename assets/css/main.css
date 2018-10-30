@@ -41,6 +41,14 @@ body {
     background-color: #FFE4C4;
 }
 
+.disc-section-home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #fafafa;
+    justify-content: space-around;
+}
+
 /*General Styling*/
 
 h1, h2, h3, h4, h5, h6 {
