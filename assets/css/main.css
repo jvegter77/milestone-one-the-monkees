@@ -111,9 +111,9 @@ p {
 }
 
 .button {
-    background-color: #4169E1;
+    background-color:gold;
     border: none;
-    color: white;
+    color: #FF0000;
     padding: 15px 32px;
     text-align: center;
     font-family: 'Candal', sans-serif;
@@ -219,7 +219,7 @@ p {
   .timeline::after {
     left: 31px;
   }
-  
+
 .timeline-container {
     width: 100%;
     padding-left: 70px;
@@ -351,18 +351,27 @@ input[type=submit]:hover {
 }
 
 #footerinfo {
-    background-color: #4169E1;
+    background-color: gold;
     
 }
 
 .navlistfooter {
     list-style: none;
     font-family: 'Carter One', cursive;
+    font-size: 15px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #footerinfo a {
     text-decoration: none;
-    color: #fafafa;
+    color: #FF0000;
+}
+
+@media screen and (max-width: 729px) {
+    .navlistfooter{
+        display: block;
+        text-align: center;
+    }
+    
 }
