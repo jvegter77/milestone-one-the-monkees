@@ -249,48 +249,120 @@ p {
     
 }
 
+/*bandmembers*/
+
 #bandintroduction {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 20px 20px;
+    padding: 20px 40px;
 }
 
-.bandmemberpicture-left {
-    text-align: right;
-    width: 47%;
+#flexcol1 {
+    width: 50%;
 }
 
-.bandmemberpicture-left img {
-    width: 60%;
+#flexcol1 img {
+    width: 100%;
 }
 
-.bandmemberpicture-right {
-    width: 47%;
+#flexcol2 {
+    width: 50%;
+    padding-left: 30px;
 }
 
-.bandmemberpicture-right img {
-    width: 60%;
-}
-
-
-.bandmemberintro-left {
-    width: 47%;
-    text-align: right;
-    margin: 20px 20px;
-}
-
-.bandmemberintro-left p {
+#flexcol2 p {
     text-align: left;
 }
 
-.bandmemberintro-right {
-    width: 47%;
-    margin: 20px 20px;
+#flexcol3 {
+    width: 50%;
+    padding-right: 30px;
 }
 
-.bandmemberintro-right p {
+#flexcol3 p {
     text-align: left;
+}
+
+#flexcol4 {
+    width: 50%;
+}
+
+#flexcol4 img{
+    width: 100%;
+}
+
+#flexcol5 {
+    width: 50%;
+}
+
+#flexcol5 img{
+    width: 100%;
+}
+
+#flexcol6 {
+    width: 50%;
+    padding-left: 30px;
+}
+
+#flexcol6 p {
+    text-align: left;
+}
+
+#flexcol7 {
+    width: 50%;
+    padding-right: 30px;
+}
+
+#flexcol7 p {
+    text-align: left;
+}
+
+#flexcol8 {
+    width: 50%;
+}
+
+#flexcol8 img{
+    width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+    #flexcol1 {
+        width: 100%;
+        order: 1;
+    }
+    #flexcol2 {
+        width: 100%;
+        order: 2;
+        padding-left: 0px;
+    }
+    #flexcol3 {
+        width: 100%;
+        order: 4;
+        padding-right: 0px;
+    }
+    #flexcol4 {
+        width: 100%;
+        order: 3;
+    }
+    #flexcol5 {
+        width: 100%;
+        order: 5;
+    }
+    #flexcol6 {
+        width: 100%;
+        order: 5;
+        padding-left: 0px;
+    }
+    #flexcol7 {
+        width: 100%;
+        order: 8;
+        padding-right: 0px;
+    }
+    #flexcol8 {
+        width: 100%;
+        order: 7;
+    }
 }
 
 #musicsection1 img{
