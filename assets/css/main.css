@@ -237,6 +237,7 @@ p {
 .right {
     left: 0%;
 }
+}
 
 #aboutsection4 {
     
@@ -286,11 +287,11 @@ p {
     text-align: left;
 }
 
-#musicsection1 img {
+#musicsection1 img{
     width: 100%;
 }
 
-#tourdatessection1 img {
+#tourdatessection1 img{
     width: 100%;
 }
 
@@ -316,5 +317,3 @@ p {
     text-decoration: none;
     color: #fafafa;
 }
-
-
