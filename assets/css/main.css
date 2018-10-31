@@ -365,8 +365,30 @@ p {
     }
 }
 
+/*styling for music.html*/
+
 #musicsection1 img{
     width: 100%;
+}
+
+#musicsection2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mp3 {
+    width: 50%;
+}
+
+@media screen and (max-width: 680px) {
+    #musicsection2 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .mp3 {
+        width: 100%;
+    }
 }
 
 #tourdatessection1 img{
