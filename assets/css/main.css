@@ -375,13 +375,15 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 20px 80px;
+    text-align: left;
 }
 
 .mp3 {
     width: 50%;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 839px) {
     #musicsection2 {
         flex-direction: column;
         text-align: center;
@@ -389,6 +391,21 @@ p {
     .mp3 {
         width: 100%;
     }
+}
+
+@media screen and (max-width: 480px) {
+    audio {
+        width:220px;
+    }
+}
+
+#musicsection3 {
+    text-align: center;
+    padding:20px 20px;
+}
+
+#mp4 {
+    width: 50%;
 }
 
 #tourdatessection1 img{
@@ -412,17 +429,16 @@ p {
 }
 
 input[type=text], select, textarea {
-    width: 70%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 50%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
 }
 
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
     background-color: #4CAF50;
     color: white;
@@ -432,12 +448,12 @@ input[type=submit] {
     cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+
 input[type=submit]:hover {
     background-color: #45a049;
 }
 
-/* Add a background color and some padding around the form */
+
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
