@@ -61,7 +61,7 @@ Framework entirely based on CSS Felxbox. (https://css-tricks.com/snippets/css/a-
 
 Testing:
 
-I ahev used the https://validator.w3.org/ to validate the use of my html and correct any errors found such as
+I have used the https://validator.w3.org/ to validate the use of my html and correct any errors found such as
 image alt tags that were missing and incorrect use of sections and headings.
 
 I have used the css validator on https://jigsaw.w3.org/css-validator/ and uploaded my CSS file to check for any
@@ -71,7 +71,7 @@ I have tested the functionality on a variety of browsers
 - Edge
 - Internet explorer 11
 - Firefox
-- Tor browsers
+- Tor browser
 - Chrome
 - Mobile browsers
 - Safari which i could not test as Safari will not install properly on windows 10
@@ -85,9 +85,7 @@ Deployment:
 
 I have used cloud9 to work on the coding of the website. https://c9.io/jvegter77
 
-The website is hosted on Github pages with all of the code in a Github repository:
-https://github.com/jvegter77/milestone-one-the-monkees
-https://jvegter77.github.io/milestone-one-the-monkees/
+The website is hosted on Github pages https://jvegter77.github.io/milestone-one-the-monkees/
 
 To run the code locally go to https://github.com/jvegter77/milestone-one-the-monkees and press clone or download
 to download a copy of the entire repo.
