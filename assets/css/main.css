@@ -460,6 +460,11 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
+#tmlogo {
+    text-align: center;
+    
+}
+
 #footerinfo {
     background-color: gold;
     
