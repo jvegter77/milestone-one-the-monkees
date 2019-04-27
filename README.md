@@ -7,7 +7,7 @@ was to only use HTML and CSS.
 UX
 
 This website is for fans of the monkees and for aspiring fans of the Monkees. 
-It can be used for other bands as well as they wireframe in general is there.
+It can be used for other bands as well as the wireframe in general is there.
 
 User stories:
 
