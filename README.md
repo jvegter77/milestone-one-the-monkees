@@ -96,7 +96,6 @@ Credits:
 - History of the band came from wikipedia https://en.wikipedia.org/wiki/The_Monkees
 - The timeline for the project was inspired by https://www.w3schools.com/howto/howto_css_timeline.asp
 - All pictures, video's and MP3's were provided by the band.
- used in this site were obtained from ...
 
 Acknowledgements:
 
